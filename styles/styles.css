@@ -51,7 +51,78 @@
     margin: 158px 267px 150px;
     text-align: center;
     size: 65px;
-    
-    
-    
+    }
+
+.body{
+  max-width: 1140px;
+  margin: 0 auto;
+
+ }
+
+
+
+.action{
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+
+.left{
+  padding: 62px 220px 62px 0px;
+}
+.image{
+  border-radius: 40px;
+}
+.action-heading{
+  font-size: 42px;
+  font-weight: 700;
+}
+.action-paragraph{
+  font-size: 24px;
+  font-weight: 400;
+  color: #252432 ;
+  opacity: 50%;
+ 
+}
+
+.productive-user{
+  margin: 116px 0px 137px 0px;
+  text-align: center;
+  padding: 50px 140px;
+ 
+  
+  
+  
+
+
+}
+.details{ 
+  
+
+  display: flex;
+  justify-content: space-around;
+}
+.productive-user-heading{
+  font-size: 38px;
+  font-weight: 700;
+}
+
+
+
+
+.blue{
+  font-size: 80px;
+  
+  font-weight: 700;
+  color: #4E47FF;
+  opacity: 100%;
+  
+}
+.blue-description{
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000;
+  opacity: 50%;
+
 }
