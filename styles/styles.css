@@ -42,11 +42,11 @@
     font-weight: bold;
     padding: 12px 36px;
     border:none;
-    
-    
-    
-    
-}
+    }
+  .primary-btn:hover{
+    background-color: rgb(216, 216, 19);
+    cursor: pointer;
+  }
 .description{
     margin: 158px 267px 150px;
     text-align: center;
@@ -127,7 +127,26 @@
 
 }
 
-.middle-part{
+.review{
+  display: flex;
+  text-align: left;
+}
+
+.icon-star{
+  background-image: url(/my-first-assignment/Assets/icon-star.png);
+  background-position: top left;
+}
+.subtitle-4{
+  color: #8987A1;
+}
+.reviewer{
+  display: flex;
+}
+.reviewer-pic{
+  border-radius: 50%; padding-top: 25px;
+}
+.reviewer-id{
+  padding-left: 5px;padding-top: 10px;
 }
 .description-2{
   padding-bottom: 20px;
@@ -137,12 +156,59 @@
   font-size: 60px;
   font-weight: 700;
 }
+.middle-part{
+  text-align: center;
+}
 
 .image-2{
   
   border-radius: 30px;
 }
 
+.form{
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+.form-2{
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+  height: 500;
+  width: 490;
+  display: block;
+  padding: 70px 0px 70px 105px;
+  
+  
+  ;
+}
+.form-2 label
+{ font-weight: 500;
+      margin-bottom: 5px;
+
+}
+.form-2 textarea  {
+      padding: 10px 15px;
+      font-weight: 500;
+      border-radius: 10px;
+      border: 1px solid 
+      }
+  .form-2 input{padding: 10px 15px;
+    width: 300px;
+     
+      border-radius: 10px;
+      border: 1px solid 
+      
+  }
+
+  .form-2 button{
+       width: 335px;  }
+.title {
+  font-size: 97px;
+  font-weight: 700;
+  text-align: left;
+}
 
 
 
@@ -168,6 +234,7 @@ nav ul li{
 }
 nav ul a{
   text-decoration: none;
+  color: #8987A1;
 }
 footer {
   text-align: center;
