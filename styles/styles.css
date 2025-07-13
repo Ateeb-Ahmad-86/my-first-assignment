@@ -126,3 +126,51 @@
   opacity: 50%;
 
 }
+
+.middle-part{
+}
+.description-2{
+  padding-bottom: 20px;
+}
+
+.heading-2{
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.image-2{
+  
+  border-radius: 30px;
+}
+
+
+
+
+.logo{
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+
+}
+.subtitle{
+  color: #8987A1;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+nav ul li{
+  
+  list-style: none;
+  color: #8987A1;
+
+}
+nav ul a{
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  padding: 105px 455px;
+
+}
